@@ -1,0 +1,94 @@
+*{
+    margin: none;
+    padding: none;
+    box-shadow: none;
+}
+body{
+   background-color: #000000;
+   color: antiquewhite;
+    background-image: url(img/img/2219d01565b2789b6cfb599bf1ca9474.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+   
+    /* Estilos CSS para personalização */
+    body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+    /*controlar cores da logo*/
+    header {
+        background-color: #006eff;
+        color: rgb(0, 0, 0);
+        padding: 10px;
+        flex-wrap: wrap;
+    }
+    /*controlar a cor da aba de seções de serviçoes etc..*/
+    nav {
+        display: flex;
+        justify-content: center;
+        background-color: #c41d1dd2;
+        padding: 10px;
+        flex-wrap: wrap;
+    }
+    nav a {
+        margin: 0 20px;
+        text-decoration: none;
+        color: #000000;
+        font-weight: bold;
+        flex-wrap: wrap;
+    }
+    section {
+        padding: 20px;
+    }
+
+   .h2-degrade{
+    left: 16px;
+    flex-direction: center;
+    
+
+   }
+
+    
+    footer {
+        background-color: #c41d1dd2;
+        color: rgb(0, 0, 0);
+        padding: 10px;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .img-container {
+        position: relative;
+        display: inline-block;
+    }
+    .img-container img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+    }
+    .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: rgba(0, 0, 0, 0.5);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .img-container:hover .overlay {
+        opacity: 1;
+    }
+    .overlay-content {
+        color: rgb(208, 204, 2);
+    }
+
